@@ -1,10 +1,12 @@
-
 import Footer from "./components/footer";
+import card from "../app/cards";
 
 export default function Home() {
   return (
-    <>
+    <div className="parent">
       <div className="header"> HAPPY BIRTHDAY TO HAMID RAZA</div>
+
+      <div className="mainflex">
       <div className="card">
         <div className="balloons">
           <div className="balloon" style={{ backgroundColor: "#ff9ff3" }}></div>
@@ -23,11 +25,13 @@ export default function Home() {
           </p>
         </div>
       </div>
-      
-      <div className="footer">
-        {" "}
-        <Footer />
+    
+      <div className="pic"></div>
+
       </div>
-    </>
+      <div className="footer">  <Footer />
+    </div >
+      
+      </div>
   );
 }
