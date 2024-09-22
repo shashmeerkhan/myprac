@@ -1,5 +1,5 @@
 import Footer from "./components/footer";
-import card from "../app/cards";
+
 
 export default function Home() {
   return (
