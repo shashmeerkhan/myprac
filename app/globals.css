@@ -28,6 +28,9 @@ body {
   gap: 10px;
 }
 .header {
+  position:fixed;
+  top: 35px;
+
   font-size: 24px;
   padding: 15px;
   color: #ffffff;
@@ -135,7 +138,7 @@ animation: float 3s infinite ease-in-out;
 }
 
 /* Media Query for Mobile Screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .parent {
     flex-direction: column;
     padding: 10px;
@@ -221,4 +224,7 @@ animation: float 3s infinite ease-in-out;
   .nam {
     font-size: 42px;
   }
+}
+html{
+  scroll-behavior: smooth;
 }
